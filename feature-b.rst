@@ -30,6 +30,10 @@ Level 4
     program myprog
     real :: i
 
+    if (i>10) then
+       exit
+    endif
+
 
 Exciting documentation in here.
 Let's make a list (empty surrounding lines required):
